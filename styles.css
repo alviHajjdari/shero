@@ -316,6 +316,9 @@ main {
     align-items: center;
     gap: 0px;
     padding: 0px;
+  }
+
+  .flex-container > div:not(:last-child) {
     border: none;
   }
 
