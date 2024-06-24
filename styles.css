@@ -86,13 +86,16 @@ main {
 
 .flex-container > div {
   display: flex;
-  border-bottom: 1px solid #eeeeee;
   padding: 20px;
   flex-direction: row;
   gap: 40px;
 }
 
-.flex-container h2 {
+.flex-container > div:not(:last-child) {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.flex-container h3 {
   color: #575757;
   text-align: center;
 }
